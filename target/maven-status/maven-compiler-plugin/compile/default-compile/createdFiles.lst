@@ -1,0 +1,6 @@
+frameworkDesign\pageObjects\PaymentPage.class
+frameworkDesign\pageObjects\ThankYouPage.class
+frameworkDesign\pageObjects\CartPage.class
+frameworkDesign\utilMethods\AbstractClass.class
+frameworkDesign\pageObjects\ProductCataloguePage.class
+frameworkDesign\pageObjects\LandingPage.class

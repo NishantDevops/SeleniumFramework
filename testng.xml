@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Standalone Suite">
+	<listeners>
+		<listener class-name="frameworkDesign.Tests.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Standalone Test">
+		<classes>
+			<class name="frameworkDesign.Tests.StandAloneTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ErrorValidation Test">
+		<classes>
+			<class name="frameworkDesign.Tests.ErrorValidationTest" />
+		</classes>
+	</test>
+</suite> <!--Suite -->

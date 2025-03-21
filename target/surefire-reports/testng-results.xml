@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-21T11:01:19 IST" name="Standalone Suite" finished-at="2025-03-21T11:01:42 IST" duration-ms="23467">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:frameworkDesign.Tests.ErrorValidationTest@7975d1d8]" name="loginErrorValidation" class="frameworkDesign.Tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2025-03-21T11:01:19 IST" name="Standalone Test" finished-at="2025-03-21T11:01:40 IST" duration-ms="21226">
+      <class name="frameworkDesign.Tests.StandAloneTest">
+        <test-method is-config="true" signature="launchApplicationURL()[pri:0, instance:frameworkDesign.Tests.StandAloneTest@1c742ed4]" started-at="2025-03-21T11:01:19 IST" name="launchApplicationURL" finished-at="2025-03-21T11:01:25 IST" duration-ms="6286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationURL -->
+        <test-method signature="standAloneTest(java.util.HashMap)[pri:0, instance:frameworkDesign.Tests.StandAloneTest@1c742ed4]" started-at="2025-03-21T11:01:25 IST" name="standAloneTest" data-provider="getData" finished-at="2025-03-21T11:01:36 IST" duration-ms="10124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=Ind, password=Mi4i@2015, email=nick.verma.krish@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standAloneTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:frameworkDesign.Tests.StandAloneTest@1c742ed4]" started-at="2025-03-21T11:01:36 IST" name="closeBrowser" finished-at="2025-03-21T11:01:36 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplicationURL()[pri:0, instance:frameworkDesign.Tests.StandAloneTest@1c742ed4]" started-at="2025-03-21T11:01:36 IST" name="launchApplicationURL" finished-at="2025-03-21T11:01:39 IST" duration-ms="3596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationURL -->
+        <test-method signature="checkOrderHistory(java.util.HashMap)[pri:0, instance:frameworkDesign.Tests.StandAloneTest@1c742ed4]" started-at="2025-03-21T11:01:39 IST" name="checkOrderHistory" data-provider="getData" finished-at="2025-03-21T11:01:40 IST" depends-on-methods="frameworkDesign.Tests.StandAloneTest.standAloneTest" duration-ms="670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=Ind, password=Mi4i@2015, email=nick.verma.krish@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrderHistory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:frameworkDesign.Tests.StandAloneTest@1c742ed4]" started-at="2025-03-21T11:01:40 IST" name="closeBrowser" finished-at="2025-03-21T11:01:40 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- frameworkDesign.Tests.StandAloneTest -->
+    </test> <!-- Standalone Test -->
+    <test started-at="2025-03-21T11:01:19 IST" name="ErrorValidation Test" finished-at="2025-03-21T11:01:42 IST" duration-ms="23467">
+      <class name="frameworkDesign.Tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplicationURL()[pri:0, instance:frameworkDesign.Tests.ErrorValidationTest@7975d1d8]" started-at="2025-03-21T11:01:19 IST" name="launchApplicationURL" finished-at="2025-03-21T11:01:25 IST" duration-ms="6316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationURL -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:frameworkDesign.Tests.ErrorValidationTest@7975d1d8]" started-at="2025-03-21T11:01:25 IST" name="loginErrorValidation" finished-at="2025-03-21T11:01:26 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:frameworkDesign.Tests.ErrorValidationTest@7975d1d8]" started-at="2025-03-21T11:01:26 IST" name="closeBrowser" finished-at="2025-03-21T11:01:26 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplicationURL()[pri:0, instance:frameworkDesign.Tests.ErrorValidationTest@7975d1d8]" started-at="2025-03-21T11:01:26 IST" name="launchApplicationURL" finished-at="2025-03-21T11:01:30 IST" duration-ms="3815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationURL -->
+        <test-method signature="productErrorValidation()[pri:0, instance:frameworkDesign.Tests.ErrorValidationTest@7975d1d8]" started-at="2025-03-21T11:01:30 IST" name="productErrorValidation" finished-at="2025-03-21T11:01:42 IST" duration-ms="12238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:frameworkDesign.Tests.ErrorValidationTest@7975d1d8]" started-at="2025-03-21T11:01:42 IST" name="closeBrowser" finished-at="2025-03-21T11:01:42 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- frameworkDesign.Tests.ErrorValidationTest -->
+    </test> <!-- ErrorValidation Test -->
+  </suite> <!-- Standalone Suite -->
+</testng-results>
